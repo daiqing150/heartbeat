@@ -53,7 +53,7 @@ eof
 echo '######HeartBeat service has been finished install#######'
 
 #start apache install
-yum install httpd
+yum install httpd -y
 
 echo '10.128.231.221' >>/var/www/html/index.html
 
